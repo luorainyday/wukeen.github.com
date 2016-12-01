@@ -1,0 +1,36 @@
+img{
+	height: 100%;
+}
+.main_content{
+	display:-webkit-flex;
+	display:flex;
+	/*flex-direction:column;*/
+	/*flex-wrap: wrap;*/
+	flex-flow: column || wrap;
+	justify-content:flex-start;
+}
+.main_content>div{
+	/*flex:1;*/
+	align-items:flex-end;
+}
+.main_content .iqixue_PC{
+	/*height: 80px;*/
+	width: 180px;
+}
+.main_content .iqixue_PC a{
+	display: block;
+	height: 100%;
+}
+.main_content .iqixue_PC a>span{
+	display: block;
+	text-align: center;
+	color: #fe6b53;
+}
+.main_content .iqixue_PC a>span:first-child{
+	font-size: 50px;
+}
+.main_content .iqixue_PC a>span:last-child{
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: underline;
+}
